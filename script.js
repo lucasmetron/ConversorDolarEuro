@@ -24,7 +24,7 @@ function converter (){
         }).then((data)=>{
             cotacaoDolar = data.rates.BRL;
             resultado = valor / cotacaoDolar
-            document.getElementById("resultado").innerHTML = "<p>Valor do dólar hoje: $" +"<strong>"+cotacaoDolar.toFixed(2) + "</strong>"+ "</p> <p> R$" +"<strong>"+ valor+"</strong>"+" reais equivale a: $" + resultado.toFixed(2) +" dólares</p>"
+            document.getElementById("resultado").innerHTML = "<p>Valor do dólar hoje: $" +"<strong>"+cotacaoDolar.toFixed(2) + "</strong>"+ "</p> <p> R$" +"<strong>"+ valor+"</strong>"+" reais equivale a: $<strong>" + resultado.toFixed(2) +"</strong> dólares</p>"
             console.log(data)
         })
     } else {
