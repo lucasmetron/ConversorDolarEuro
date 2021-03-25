@@ -1,6 +1,6 @@
 # Conversor de Moeda
 
-### - Neste pequeno projeto pude fazer um conversor de moeda utlizando uma API web. Até aqui sempre estava trabalhando nos meus programas com dados que eu inseria na minha aplicação. Mas neste conversor os dados são recebidos de uma API web através da função fetch() do JavaScript, ou seja, os dados tanto da cotação do dólar quanto do euro são reais e eles mudam conforme a cotação do dia!  
+### - Neste pequeno projeto pude fazer um conversor de moeda utilizando uma API web. Até aqui sempre estava trabalhando nos meus programas com dados que eu inseria na minha aplicação. Mas neste conversor os dados são recebidos de uma API web através da função fetch() do JavaScript, ou seja, os dados tanto da cotação do dólar quanto do euro são reais e eles mudam conforme a cotação do dia!  
 
 
 ### - Nesta aplicação foram usados as seguintes tecnologias:
