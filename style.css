@@ -126,7 +126,7 @@ label {
     font-size: 1rem;
     animation-name: resultado;
     animation-duration: 1.5s;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     animation-timing-function: linear;
 }
 
