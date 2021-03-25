@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.conteiner{
+    overflow: hidden;
+    background-color: rgb(142,204,147);
+    padding: 0px 15px 15px 15px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.titulo{
+    overflow: hidden;
+    font-size: 1.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(142,204,147);
+    width: 100%;
+    color: white;
+}
+
+.conversor{
+    overflow: hidden;
+    background-color: bisque;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radios{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 10px;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+}
+
+form input[type="radio"]{
+    display: none;
+    width: 100%;
+}
+
+.radios input[type="radio"]:checked+label {
+    border: 2px solid black;;
+    box-shadow: 2px 2px 4px black;;
+  }
+
+form{
+    background-color: rgb(192, 192, 192);
+    box-shadow: 3px 4px 8px black;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+label{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin-right: 5px;
+}
+
+
+
+
+form input[type="text"]{
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+}
+
+form input[type="button"]{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(245, 77, 77);
+    border: none;
+}
+
+li{
+    list-style: none;
+}
+
+label {
+    display: inline-block;
+    width: 45%;
+    border: solid 1px ;
+}
+
+
+
+
+.mostrador{
+    
+    position: relative;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    animation-name: resultado;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes resultado {
+    0%{left: -1000px; }
+    100%{left:0;} 
+}

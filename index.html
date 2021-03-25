@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+
+        <div class="titulo">Conversor de Moedas</div>
+
+        <!-- <div class="conversor"> -->
+
+
+            <form>
+
+                <div class="radios">
+
+                    <input class="radio" id="dola" type="radio" value="dolar" name="moeda" checked>
+                    <label for="dola"> Dolar </label>
+    
+                    <input class="radio" id="eur" type="radio" value="euro" name="moeda">
+                    <label for="eur">Euro </label><br>
+                </div>
+
+
+
+                <input type="text" id="valor" placeholder="Digite o valor em R$">
+                <input type="button" value="Converter" onclick="converter()">
+            </form>
+
+           
+            
+
+        <!-- </div> -->
+
+        <div class="mostrador"id="resultado">
+            
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
