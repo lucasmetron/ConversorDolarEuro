@@ -2,14 +2,20 @@
     padding: 0;
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: rgb(236, 248, 123);
 }
 .conteiner{
     overflow: hidden;
-    background-color: rgb(142,204,147);
-    padding: 0px 15px 15px 15px;
+
+   
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 100%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,9 +29,9 @@
     font-size: 1.8rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(142,204,147);
+    margin-bottom: 15px;
     width: 100%;
-    color: white;
+    color: rgb(54, 54, 54);
 }
 
 .conversor{
@@ -61,7 +67,7 @@ form input[type="radio"]{
   }
 
 form{
-    background-color: rgb(192, 192, 192);
+    background-color:  rgb(211, 210, 210, 0.8);
     box-shadow: 3px 4px 8px black;
     padding: 50px;
     align-items: center;
@@ -70,6 +76,7 @@ form{
     text-align: center;
     justify-content: center;
     padding: 15px;
+    margin-bottom: 15px;
 }
 
 label{
@@ -114,11 +121,12 @@ label {
     
     position: relative;
     margin-top: 10px;
-    color: white;
+    color:  rgb(54, 54, 54);
     padding: 10px;
+    font-size: 1rem;
     animation-name: resultado;
     animation-duration: 1.5s;
-    animation-delay: 0s;
+    animation-delay: 0.5s;
     animation-timing-function: linear;
 }
 
@@ -126,4 +134,10 @@ label {
 @keyframes resultado {
     0%{left: -1000px; }
     100%{left:0;} 
+}
+
+@media screen and (max-width: 447px){
+    .mostrador{
+        font-size: 1.4rem;
+    }
 }
